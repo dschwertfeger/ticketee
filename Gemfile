@@ -4,6 +4,7 @@ gem 'rails', '3.2.8'
 gem 'haml'
 gem 'ruby_parser'
 gem 'hpricot'
+gem 'autotest-rails', '~> 4.1.2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -31,7 +32,7 @@ group :test, :development do
 end
 
 group :test do
-	gem 'cucumber-rails'
+	gem 'cucumber-rails', :require => false
 	gem 'cucumber-rails-training-wheels'
   gem 'capybara'
   gem 'database_cleaner'

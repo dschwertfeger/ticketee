@@ -7,6 +7,8 @@
     = csrf_meta_tags
   %body
     %nav
+      - admins_only do
+        = link_to "Admin", admin_root_path
       - if user_signed_in?
         Signed in as #{current_user.email}
       - else

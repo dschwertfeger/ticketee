@@ -1,15 +1,16 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '3.2.11'
 gem 'haml-rails'
 gem 'ruby_parser'
 gem 'hpricot'
-gem 'autotest-rails', '~> 4.1.2'
+# gem 'autotest-rails', '~> 4.1.2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'newrelic_rpm'
 
 
 # Gems used only for assets and not required
